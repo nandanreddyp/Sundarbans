@@ -43,7 +43,7 @@
                   class="w-full overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800"
                 >
                   <img
-                    class="object-cover w-full h-56"
+                    class="object-cover w-full h-80 rounded-t-lg"
                     :src="prependBackendLink(admins[0].image)"
                     alt="avatar"
                   >
@@ -69,7 +69,7 @@
                   class="w-full overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800"
                 >
                   <img
-                    class="object-cover w-full h-56"
+                    class="object-cover w-full h-80 rounded-t-lg"
                     :src="prependBackendLink(admins[1].image)"
                     alt="avatar"
                   >
